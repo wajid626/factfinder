@@ -1,0 +1,264 @@
+{
+  "birthdate": -1035815400,
+  "conditions": [
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "111297002"
+        ],
+        "ICD-9-CM": [
+          "433.01"
+        ],
+        "ICD-10-CM": [
+          "I63.00"
+        ]
+      },
+      "description": "Diagnosis, Active: Ischemic Stroke (Code List: 2.16.840.1.113883.3.117.1.7.1.247)",
+      "end_time": 1333702800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": {
+        "code_system": "SNOMED-CT",
+        "code": "63161005",
+        "title": "Hospital Measures - Principal"
+      },
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1333357200,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    }
+  ],
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1333357200,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "32485007"
+        ]
+      },
+      "description": "Encounter, Performed: Inpatient Encounter (Code List: 2.16.840.1.113883.3.117.1.7.1.23)",
+      "dischargeDisposition": {
+        "code_system": "SNOMED-CT",
+        "code": "10161009",
+        "title": "Discharge To Home Or Police Custody"
+      },
+      "dischargeTime": 1333702800,
+      "end_time": 1333702800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": null,
+      "specifics": null,
+      "start_time": 1333357200,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "STROKE_ADULT",
+  "gender": "M",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "C",
+  "measure_ids": [
+    "0435",
+    "0437",
+    "0438",
+    "0439",
+    "0440",
+    "0441",
+    "0436",
+    "0163",
+    "0142",
+    "0497",
+    "0376"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_record_number": "cce692bcfd3d4dc602a052190bb30d8b",
+  "medications": [
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "212033"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Administered: Antithrombotic Therapy (Code List: 2.16.840.1.113883.3.117.1.7.1.201)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333364400,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.14",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": null,
+      "site": null,
+      "specifics": null,
+      "start_time": 1333360800,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "administered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    }
+  ],
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "results": [
+
+  ],
+  "source_data_criteria": [
+    {
+      "id": "EncounterPerformedInpatientEncounter",
+      "start_date": 1333371600000,
+      "end_date": 1333717200000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "DISCHARGE_STATUS": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.82",
+          "title": "discharge_to_home_or_police_custody (8A4D92B2-3A00-2A25-013A-0DD50CE621D8)"
+        },
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "4/6/2012 9:0:0"
+        },
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "4/2/2012 9:0:0"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.23",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "DiagnosisActiveIschemicStroke",
+      "start_date": 1333371600000,
+      "end_date": 1333717200000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ORDINAL": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.3010",
+          "title": "hospital_measures_principal (8A4D92B2-3887-5DF3-0139-0D01C6626E46)"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.247",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "MedicationAdministeredAntithromboticTherapy",
+      "start_date": 1333375200000,
+      "end_date": 1333378800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.201",
+      "definition": "medication",
+      "status": "administered"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh",
+  "vital_signs": [
+
+  ]
+}

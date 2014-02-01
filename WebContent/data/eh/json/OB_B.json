@@ -1,0 +1,376 @@
+{
+  "birthdate": 539973000,
+  "conditions": [
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "441924001"
+        ]
+      },
+      "description": "Patient Characteristic: Gestational Age Unknown (Code List: 2.16.840.1.113883.3.117.1.7.1.307)",
+      "end_time": 1333271700,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.1001",
+      "ordinality": null,
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1333271700,
+      "status_code": {
+        "HL7 ActStatus": [
+          null
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    },
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "13943000"
+        ],
+        "ICD-9-CM": [
+          "634.60"
+        ],
+        "ICD-10-CM": [
+          "O03.2"
+        ]
+      },
+      "description": "Diagnosis, Active: Obstetrics VTE (Code List: 2.16.840.1.113883.3.117.1.7.1.264)",
+      "end_time": 1333297800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": null,
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1333290600,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    }
+  ],
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1333271700,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "32485007"
+        ]
+      },
+      "description": "Encounter, Performed: Inpatient Encounter (Code List: 2.16.840.1.113883.3.117.1.7.1.23)",
+      "dischargeDisposition": null,
+      "dischargeTime": 1333297800,
+      "end_time": 1333297800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": null,
+      "specifics": null,
+      "start_time": 1333271700,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "OB",
+  "gender": "F",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "B",
+  "measure_ids": [
+    "0469",
+    "0142",
+    "0439",
+    "0376",
+    "0147",
+    "0453",
+    "0371"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_record_number": "f8745b14e07f41c49d8785a1d9920b77",
+  "procedures": [
+    {
+      "codes": {
+        "SNOMED-CT": [
+          "108214006"
+        ],
+        "ICD-10-PCS": [
+          "3E030FZ"
+        ]
+      },
+      "description": "Procedure, Performed: General or Neuraxial Anesthesia (Code List: 2.16.840.1.113883.3.117.1.7.1.254)",
+      "end_time": 1333279800,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.6",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1333272600,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    },
+    {
+      "codes": {
+        "SNOMED-CT": [
+          "11466000"
+        ]
+      },
+      "description": "Procedure, Performed: Delivery Procedures (Code List: 2.16.840.1.113883.3.117.1.7.1.401)",
+      "end_time": 1333278000,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.6",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1333274400,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    },
+    {
+      "codes": {
+        "LOINC": [
+          "24533-2"
+        ]
+      },
+      "description": "Diagnostic Study, Result: VTE Diagnostic Test (Code List: 2.16.840.1.113883.3.117.1.7.1.276)",
+      "end_time": 1333288800,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.11",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1333288800,
+      "status_code": {
+        "HL7 ActStatus": [
+          null
+        ]
+      },
+      "time": null,
+      "values": [
+        {
+          "codes": {
+            "SNOMED-CT": [
+              "1748006"
+            ]
+          },
+          "description": "VTE Confirmed",
+          "_type": "CodedResultValue"
+        }
+      ],
+      "_type": "Procedure"
+    }
+  ],
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "source_data_criteria": [
+    {
+      "id": "EncounterPerformedInpatientEncounter",
+      "start_date": 1333286100000,
+      "end_date": 1333312200000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "04/01/2012 09:15"
+        },
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "04/01/2012 16:30"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.23",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "PatientCharacteristicGestationalAgeUnknown",
+      "start_date": 1333286100000,
+      "end_date": 1333286100000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.307",
+      "definition": "patient_characteristic",
+      "status": null
+    },
+    {
+      "id": "ProcedurePerformedGeneralOrNeuraxialAnesthesia",
+      "start_date": 1333287000000,
+      "end_date": 1333294200000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.254",
+      "definition": "procedure",
+      "status": "performed"
+    },
+    {
+      "id": "ProcedurePerformedDeliveryProcedures",
+      "start_date": 1333288800000,
+      "end_date": 1333292400000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.401",
+      "definition": "procedure",
+      "status": "performed"
+    },
+    {
+      "id": "DiagnosticStudyResultVteDiagnosticTest",
+      "start_date": 1333303200000,
+      "end_date": 1333303200000,
+      "value": [
+        {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.407",
+          "title": "Attribute Vte Confirmed"
+        }
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.276",
+      "definition": "diagnostic_study_result",
+      "status": null
+    },
+    {
+      "id": "DiagnosisActiveObstetricsVte",
+      "start_date": 1333305000000,
+      "end_date": 1333312200000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.264",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh"
+}

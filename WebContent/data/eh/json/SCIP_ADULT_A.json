@@ -1,0 +1,308 @@
+{
+  "birthdate": -712333800,
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1330678800,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "32485007"
+        ]
+      },
+      "description": "Encounter, Performed: Encounter Inpatient (Code List: 2.16.840.1.113883.3.666.5.307)",
+      "dischargeDisposition": null,
+      "dischargeTime": 1330966800,
+      "end_time": 1330966800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": null,
+      "specifics": null,
+      "start_time": 1330678800,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "SCIP_ADULT",
+  "gender": "M",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "A",
+  "measure_ids": [
+    "0453",
+    "0528",
+    "0527",
+    "0480",
+    "0142",
+    "0438",
+    "0371",
+    "0147",
+    "0496",
+    "0372"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_equipment": [
+    {
+      "anatomicalStructure": {
+        "code_system": "SNOMED-CT",
+        "code": "13648007",
+        "title": "Hospital Measures-Urethra"
+      },
+      "codes": {
+        "SNOMED-CT": [
+          "20568009"
+        ]
+      },
+      "description": "Device, Applied: Hospital Measures-Indwelling urinary catheter (Code List: 2.16.840.1.113883.3.666.5.820)",
+      "end_time": 1330952400,
+      "free_text": null,
+      "manufacturer": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.10",
+      "reason": null,
+      "removalTime": null,
+      "specifics": null,
+      "start_time": 1330683300,
+      "status_code": {
+        "HL7 ActStatus": [
+          "applied"
+        ]
+      },
+      "time": null,
+      "values": [
+        {
+          "codes": {
+            "SNOMED-CT": [
+              "13648007"
+            ]
+          },
+          "description": "Hospital Measures-Urethra",
+          "_type": "CodedResultValue"
+        }
+      ],
+      "_type": "MedicalEquipment"
+    }
+  ],
+  "medical_record_number": "4419c3df96d1e9699136eaa29b9cd44b",
+  "procedures": [
+    {
+      "codes": {
+        "ICD-10-PCS": [
+          "0210093"
+        ],
+        "SNOMED-CT": [
+          "10190003"
+        ],
+        "ICD-9-CM": [
+          "36.10"
+        ]
+      },
+      "description": "Procedure, Performed: Hospital measures-CABG (Code List: 2.16.840.1.113883.3.666.5.694)",
+      "end_time": 1330689600,
+      "free_text": null,
+      "incisionTime": 1330685100,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.6",
+      "ordinality": {
+        "code_system": "SNOMED-CT",
+        "code": "63161005",
+        "title": "Hospital Measures - Principal"
+      },
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1330684200,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    },
+    {
+      "codes": {
+        "SNOMED-CT": [
+          "173476009"
+        ],
+        "ICD-10-PCS": [
+          "3E030FZ"
+        ]
+      },
+      "description": "Procedure, Performed: Hospital measures-Joint Commission evidence of a surgical procedure requiring general or neuraxial anesthesia (Code List: 2.16.840.1.113883.3.666.5.1743)",
+      "end_time": 1330688700,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.6",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1330685100,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    }
+  ],
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "source_data_criteria": [
+    {
+      "id": "EncounterPerformedEncounterInpatient",
+      "start_date": 1330696800000,
+      "end_date": 1330984800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "03/05/2012 17:00"
+        },
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "03/02/2012 09:00"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.666.5.307",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "DeviceAppliedHospitalMeasuresIndwellingUrinaryCatheter",
+      "start_date": 1330701300000,
+      "end_date": 1330970400000,
+      "value": [
+        {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.1130",
+          "title": "Hospital Measures-Urethra"
+        }
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ANATOMICAL_STRUCTURE": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.1130",
+          "title": "Hospital Measures-Urethra"
+        },
+        "START_DATETIME": {
+          "type": "TS",
+          "value": "03/02/2012 10:15"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.666.5.820",
+      "definition": "device",
+      "status": "applied"
+    },
+    {
+      "id": "ProcedurePerformedHospitalMeasuresCabg",
+      "start_date": 1330702200000,
+      "end_date": 1330707600000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "INCISION_DATETIME": {
+          "type": "TS",
+          "value": "03/02/2012 10:45"
+        },
+        "ORDINAL": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.3010",
+          "title": "Hospital Measures - Principal"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.666.5.694",
+      "definition": "procedure",
+      "status": "performed"
+    },
+    {
+      "id": "ProcedurePerformedHospitalMeasuresJointCommissionEvidenceOfASurgicalProcedureRequiringGeneralOrNeuraxialAnesthesia",
+      "start_date": 1330703100000,
+      "end_date": 1330706700000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.666.5.1743",
+      "definition": "procedure",
+      "status": "performed"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh"
+}

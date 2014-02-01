@@ -1,0 +1,755 @@
+{
+  "birthdate": 382197600,
+  "conditions": [
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "11029002"
+        ],
+        "ICD-9-CM": [
+          "415.11"
+        ],
+        "ICD-10-CM": [
+          "I26.02"
+        ]
+      },
+      "description": "Diagnosis, Active: Venous Thromboembolism (Code List: 2.16.840.1.113883.3.117.1.7.1.279)",
+      "end_time": 1333373400,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": null,
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1333281600,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    }
+  ],
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1333278000,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "32485007"
+        ]
+      },
+      "description": "Encounter, Performed: Inpatient Encounter (Code List: 2.16.840.1.113883.3.117.1.7.1.23)",
+      "dischargeDisposition": {
+        "code_system": "SNOMED-CT",
+        "code": "10161009",
+        "title": "Discharge To Home Or Police Custody"
+      },
+      "dischargeTime": 1333373400,
+      "end_time": 1333373400,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": null,
+      "specifics": null,
+      "start_time": 1333278000,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "VTE_ADULT",
+  "gender": "F",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "B",
+  "measure_ids": [
+    "0371",
+    "0376",
+    "0373",
+    "0374",
+    "0375",
+    "0480",
+    "0142",
+    "0147"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_record_number": "86c61730a8776ec14e06b3ed08cad129",
+  "medications": [
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "1361568"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Administered: Unfractionated Heparin (Code List: 2.16.840.1.113883.3.117.1.7.1.218)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333299600,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.14",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": {
+        "code_system": "SNOMED-CT",
+        "code": "418114005",
+        "title": "Intravenous route"
+      },
+      "site": null,
+      "specifics": null,
+      "start_time": 1333285200,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "administered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    },
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "1361568"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Order: Unfractionated Heparin (Code List: 2.16.840.1.113883.3.117.1.7.1.218)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333285200,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.17",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": {
+        "code_system": "SNOMED-CT",
+        "code": "418114005",
+        "title": "Intravenous route"
+      },
+      "site": null,
+      "specifics": null,
+      "start_time": 1333285200,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "ordered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    },
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "855332"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Administered: Warfarin (Code List: 2.16.840.1.113883.3.117.1.7.1.232)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333299600,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.14",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": null,
+      "site": null,
+      "specifics": null,
+      "start_time": 1333299600,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "administered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    },
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "1361568"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Administered: Parenteral Anticoagulant (Code List: 2.16.840.1.113883.3.117.1.7.1.266)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333299600,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.14",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": null,
+      "site": null,
+      "specifics": null,
+      "start_time": 1333299600,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "administered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    },
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "1361568"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Administered: Parenteral Anticoagulant (Code List: 2.16.840.1.113883.3.117.1.7.1.266)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333357200,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.14",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": null,
+      "site": null,
+      "specifics": null,
+      "start_time": 1333357200,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "administered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    },
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "1361568"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Discharge: Parenteral Anticoagulant (Code List: 2.16.840.1.113883.3.117.1.7.1.266)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333371600,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.199",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": null,
+      "site": null,
+      "specifics": null,
+      "start_time": 1333371600,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "discharge"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    },
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "855332"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Discharge: Warfarin (Code List: 2.16.840.1.113883.3.117.1.7.1.232)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1333371600,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.199",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": null,
+      "site": null,
+      "specifics": null,
+      "start_time": 1333371600,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "discharge"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    }
+  ],
+  "procedures": [
+    {
+      "codes": {
+        "SNOMED-CT": [
+          "417886001"
+        ]
+      },
+      "description": "Procedure, Performed: Treatment Adjusted by Protocol (Code List: 2.16.840.1.113883.3.117.1.7.1.278)",
+      "end_time": 1333287000,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.6",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1333287000,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    },
+    {
+      "codes": {
+        "LOINC": [
+          "24533-2"
+        ]
+      },
+      "description": "Diagnostic Study, Result: VTE Diagnostic Test (Code List: 2.16.840.1.113883.3.117.1.7.1.276)",
+      "end_time": 1333281600,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.11",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1333281600,
+      "status_code": {
+        "HL7 ActStatus": [
+          null
+        ]
+      },
+      "time": null,
+      "values": [
+        {
+          "codes": {
+            "SNOMED-CT": [
+              "1748006"
+            ]
+          },
+          "description": "VTE Confirmed",
+          "_type": "CodedResultValue"
+        }
+      ],
+      "_type": "Procedure"
+    },
+    {
+      "codes": {
+        "SNOMED-CT": [
+          "413318004"
+        ]
+      },
+      "description": "Communication: From Provider to Patient: Written Information Given (Code List: 2.16.840.1.113883.3.117.1.7.1.415)",
+      "end_time": 1333371600,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": true,
+      "negationReason": {
+        "code_system": "SNOMED-CT",
+        "code": "105480006"
+      },
+      "oid": "2.16.840.1.113883.3.560.1.131",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1333371600,
+      "status_code": {
+        "HL7 ActStatus": [
+          null
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    }
+  ],
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "results": [
+
+  ],
+  "source_data_criteria": [
+    {
+      "id": "ProcedurePerformedTreatmentAdjustedByProtocol",
+      "start_date": 1333301400000,
+      "end_date": 1333301400000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.278",
+      "definition": "procedure",
+      "status": "performed"
+    },
+    {
+      "id": "EncounterPerformedInpatientEncounter",
+      "start_date": 1333292400000,
+      "end_date": 1333387800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "04/01/2012 11:00"
+        },
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "04/02/2012 13:30"
+        },
+        "DISCHARGE_STATUS": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.82",
+          "title": "Discharge To Home Or Police Custody"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.23",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "DiagnosticStudyResultVteDiagnosticTest",
+      "start_date": 1333296000000,
+      "end_date": 1333296000000,
+      "value": [
+        {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.407",
+          "title": "VTE Confirmed"
+        }
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.276",
+      "definition": "diagnostic_study_result",
+      "status": null
+    },
+    {
+      "id": "DiagnosisActiveVenousThromboembolism",
+      "start_date": 1333296000000,
+      "end_date": 1333387800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.279",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "MedicationAdministeredUnfractionatedHeparin",
+      "start_date": 1333299600000,
+      "end_date": 1333314000000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ROUTE": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.222",
+          "title": "Intravenous route"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.218",
+      "definition": "medication",
+      "status": "administered"
+    },
+    {
+      "id": "MedicationOrderUnfractionatedHeparin",
+      "start_date": 1333299600000,
+      "end_date": 1333299600000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ROUTE": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.222",
+          "title": "Intravenous route"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.218",
+      "definition": "medication",
+      "status": "ordered"
+    },
+    {
+      "id": "MedicationAdministeredWarfarin",
+      "start_date": 1333314000000,
+      "end_date": 1333314000000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.232",
+      "definition": "medication",
+      "status": "administered"
+    },
+    {
+      "id": "MedicationAdministeredParenteralAnticoagulant",
+      "start_date": 1333314000000,
+      "end_date": 1333314000000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.266",
+      "definition": "medication",
+      "status": "administered"
+    },
+    {
+      "id": "MedicationAdministeredParenteralAnticoagulant",
+      "start_date": 1333371600000,
+      "end_date": 1333371600000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.266",
+      "definition": "medication",
+      "status": "administered"
+    },
+    {
+      "id": "CommunicationFromProviderToPatientWrittenInformationGiven",
+      "start_date": 1333386000000,
+      "end_date": 1333386000000,
+      "value": [
+
+      ],
+      "negation": "true",
+      "negation_code_list_id": "2.16.840.1.113883.3.117.1.7.1.93",
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.415",
+      "definition": "communication_from_provider_to_patient",
+      "status": null
+    },
+    {
+      "id": "MedicationDischargeParenteralAnticoagulant",
+      "start_date": 1333386000000,
+      "end_date": 1333386000000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.266",
+      "definition": "medication",
+      "status": "discharge"
+    },
+    {
+      "id": "MedicationDischargeWarfarin",
+      "start_date": 1333386000000,
+      "end_date": 1333386000000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.232",
+      "definition": "medication",
+      "status": "discharge"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh"
+}

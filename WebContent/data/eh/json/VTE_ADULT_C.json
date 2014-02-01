@@ -1,0 +1,185 @@
+{
+  "birthdate": -239527800,
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1328106600,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "32485007"
+        ]
+      },
+      "description": "Encounter, Performed: Inpatient Encounter (Code List: 2.16.840.1.113883.3.117.1.7.1.23)",
+      "dischargeDisposition": null,
+      "dischargeTime": 1328286600,
+      "end_time": 1328286600,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": null,
+      "specifics": null,
+      "start_time": 1328106600,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "VTE_ADULT",
+  "gender": "M",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "C",
+  "measure_ids": [
+    "0371",
+    "0480",
+    "0142",
+    "0373"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_record_number": "59074d1606548365d4db75931397082c",
+  "medications": [
+    {
+      "administrationTiming": null,
+      "codes": {
+        "RxNorm": [
+          "1361568"
+        ]
+      },
+      "cumulativeMedicationDuration": null,
+      "deliveryMethod": null,
+      "description": "Medication, Administered: Unfractionated Heparin (Code List: 2.16.840.1.113883.3.117.1.7.1.218)",
+      "dose": null,
+      "doseIndicator": null,
+      "doseRestriction": null,
+      "end_time": 1328108400,
+      "freeTextSig": null,
+      "free_text": null,
+      "fulfillmentInstructions": null,
+      "indication": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.14",
+      "patientInstructions": null,
+      "productForm": null,
+      "reaction": null,
+      "reason": null,
+      "route": {
+        "code_system": "SNOMED-CT",
+        "code": "34206005",
+        "title": "Subcutaneous route"
+      },
+      "site": null,
+      "specifics": null,
+      "start_time": 1328108400,
+      "statusOfMedication": null,
+      "status_code": {
+        "HL7 ActStatus": [
+          "administered"
+        ]
+      },
+      "time": null,
+      "typeOfMedication": null,
+      "vehicle": null,
+      "_type": "Medication"
+    }
+  ],
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "source_data_criteria": [
+    {
+      "id": "EncounterPerformedInpatientEncounter",
+      "start_date": 1328124600000,
+      "end_date": 1328304600000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "02/01/2012 14:30"
+        },
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "02/03/2012 16:30"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.23",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "MedicationAdministeredUnfractionatedHeparin",
+      "start_date": 1328126400000,
+      "end_date": 1328126400000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ROUTE": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.223",
+          "title": "Subcutaneous route"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.218",
+      "definition": "medication",
+      "status": "administered"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh"
+}

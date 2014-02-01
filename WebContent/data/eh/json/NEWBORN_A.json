@@ -1,0 +1,307 @@
+{
+  "birthdate": 1325516400,
+  "conditions": [
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "442311008"
+        ]
+      },
+      "description": "Diagnosis, Active: Liveborn Born In Hospital (Code List: 2.16.840.1.113883.3.117.1.7.1.29)",
+      "end_time": 1326016800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": null,
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1325498400,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    },
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "13798002"
+        ],
+        "ICD-9-CM": [
+          "765.29"
+        ]
+      },
+      "description": "Diagnosis, Active: Gestational age >= 37 weeks (Code List: 2.16.840.1.113883.3.666.5.1596)",
+      "end_time": 1326016800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": null,
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1325498400,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    },
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "169826009"
+        ]
+      },
+      "description": "Diagnosis, Active: Single Live Birth (Code List: 2.16.840.1.113883.3.117.1.7.1.25)",
+      "end_time": 1326016800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": {
+        "code_system": "SNOMED-CT",
+        "code": "63161005",
+        "title": "Hospital Measures - Principal"
+      },
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1325498400,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    }
+  ],
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1325496600,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "32485007"
+        ]
+      },
+      "description": "Encounter, Performed: Inpatient Encounter (Code List: 2.16.840.1.113883.3.117.1.7.1.23)",
+      "dischargeDisposition": null,
+      "dischargeTime": 1326016800,
+      "end_time": 1326016800,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": {
+        "code": "3950001",
+        "code_system": "SNOMED-CT",
+        "codes": {
+        },
+        "description": null,
+        "end_time": null,
+        "free_text": null,
+        "mood_code": "EVN",
+        "negationInd": null,
+        "negationReason": null,
+        "oid": null,
+        "reason": null,
+        "specifics": null,
+        "start_time": null,
+        "status_code": null,
+        "time": null,
+        "title": "Birth",
+        "_type": "Entry"
+      },
+      "specifics": null,
+      "start_time": 1325496600,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "NEWBORN",
+  "gender": "F",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "A",
+  "measure_ids": [
+    "0480",
+    "0716",
+    "0142",
+    "0371",
+    "0376",
+    "0147",
+    "0439",
+    "1354"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_record_number": "1ef57c0a5ac2ef5a2b50b3f4bb04d76c",
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "source_data_criteria": [
+    {
+      "id": "EncounterPerformedInpatientEncounter",
+      "start_date": 1325514600000,
+      "end_date": 1326034800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "REASON": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.117.1.7.1.70",
+          "title": "Birth"
+        },
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "01/08/2012 10:00"
+        },
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "01/02/2012 09:30"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.23",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "DiagnosisActiveLivebornBornInHospital",
+      "start_date": 1325516400000,
+      "end_date": 1326034800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.29",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "DiagnosisActiveGestationalAge37Weeks",
+      "start_date": 1325516400000,
+      "end_date": 1326034800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.666.5.1596",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "DiagnosisActiveSingleLiveBirth",
+      "start_date": 1325516400000,
+      "end_date": 1326034800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ORDINAL": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.3010",
+          "title": "Hospital Measures - Principal"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.117.1.7.1.25",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh"
+}

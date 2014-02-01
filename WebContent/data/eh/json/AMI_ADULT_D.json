@@ -1,0 +1,303 @@
+{
+  "birthdate": -788772600,
+  "conditions": [
+    {
+      "causeOfDeath": null,
+      "codes": {
+        "SNOMED-CT": [
+          "10273003"
+        ],
+        "ICD-9-CM": [
+          "410.00"
+        ],
+        "ICD-10-CM": [
+          "I21.01"
+        ]
+      },
+      "description": "Diagnosis, Active: Hospital Measures - AMI (Code List: 2.16.840.1.113883.3.666.5.3011)",
+      "end_time": 1335803400,
+      "free_text": null,
+      "mood_code": "EVN",
+      "name": null,
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.2",
+      "ordinality": {
+        "code_system": "SNOMED-CT",
+        "code": "63161005",
+        "title": "Hospital Measures - Principal"
+      },
+      "priority": null,
+      "reason": null,
+      "severity": null,
+      "specifics": null,
+      "start_time": 1335779400,
+      "status_code": {
+        "SNOMED-CT": [
+          "55561003"
+        ],
+        "HL7 ActStatus": [
+          "active"
+        ]
+      },
+      "time": null,
+      "time_of_death": null,
+      "type": null,
+      "_type": "Condition"
+    }
+  ],
+  "description": "",
+  "encounters": [
+    {
+      "admitTime": 1335778200,
+      "admitType": null,
+      "codes": {
+        "SNOMED-CT": [
+          "112689000"
+        ]
+      },
+      "description": "Encounter, Performed: Hospital Measures-Encounter Inpatient (Code List: 2.16.840.1.113883.3.666.5.625)",
+      "dischargeDisposition": null,
+      "dischargeTime": 1335803400,
+      "end_time": 1335803400,
+      "free_text": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "performer_id": null,
+      "reason": null,
+      "specifics": null,
+      "start_time": 1335778200,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "transferFrom": null,
+      "transferTo": null,
+      "_type": "Encounter"
+    }
+  ],
+  "ethnicity": {
+    "code": "2186-5",
+    "name": "Not Hispanic or Latino",
+    "codeSystem": "CDC Race"
+  },
+  "expired": false,
+  "first": "AMI_ADULT",
+  "gender": "F",
+  "insurance_providers": [
+    {
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "end_time": null,
+      "financial_responsibility_type": {
+        "code": "SELF",
+        "codeSystem": "HL7 Relationship Code"
+      },
+      "free_text": null,
+      "member_id": "1234567890",
+      "name": "Other",
+      "payer": {
+        "name": "Other"
+      },
+      "relationship": null,
+      "start_time": 1199163600,
+      "time": null,
+      "type": "OT"
+    }
+  ],
+  "languages": [
+
+  ],
+  "last": "D",
+  "measure_ids": [
+    "0142",
+    "0639",
+    "0163",
+    "0497",
+    "0438",
+    "0376"
+  ],
+  "measure_period_end": 1356930000000,
+  "measure_period_start": 1325394000000,
+  "medical_record_number": "116c5a883ccdc89b2531bcbae3a403ab",
+  "medications": [
+
+  ],
+  "procedures": [
+    {
+      "codes": {
+        "LOINC": [
+          "8601-7"
+        ]
+      },
+      "description": "Diagnostic Study, Result: Hospital Measures-ECG Impression (Code List: 2.16.840.1.113883.3.666.5.3018)",
+      "end_time": 1335778800,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.11",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1335778800,
+      "status_code": {
+        "HL7 ActStatus": [
+          null
+        ]
+      },
+      "time": null,
+      "values": [
+        {
+          "codes": {
+            "SNOMED-CT": [
+              "10273003"
+            ],
+            "ICD-9-CM": [
+              "410.00"
+            ],
+            "ICD-10-CM": [
+              "I21.01"
+            ]
+          },
+          "description": "Hospital Measures-Acute or Evolving MI",
+          "_type": "CodedResultValue"
+        }
+      ],
+      "_type": "Procedure"
+    },
+    {
+      "codes": {
+        "SNOMED-CT": [
+          "414089002"
+        ]
+      },
+      "description": "Procedure, Performed: Hospital Measures-PCI (Code List: 2.16.840.1.113883.3.666.5.737)",
+      "end_time": 1335781800,
+      "free_text": null,
+      "incisionTime": null,
+      "mood_code": "EVN",
+      "negationInd": null,
+      "negationReason": null,
+      "oid": "2.16.840.1.113883.3.560.1.6",
+      "ordinality": null,
+      "performer_id": null,
+      "reason": null,
+      "site": null,
+      "source": null,
+      "specifics": null,
+      "start_time": 1335780000,
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      "time": null,
+      "_type": "Procedure"
+    }
+  ],
+  "race": {
+    "code": "1002-5",
+    "name": "American Indian or Alaska Native",
+    "codeSystem": "CDC Race"
+  },
+  "results": [
+
+  ],
+  "source_data_criteria": [
+    {
+      "id": "EncounterPerformedHospitalMeasuresEncounterInpatient",
+      "start_date": 1335792600000,
+      "end_date": 1335817800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ADMISSION_DATETIME": {
+          "type": "TS",
+          "value": "04/30/2012 09:30"
+        },
+        "DISCHARGE_DATETIME": {
+          "type": "TS",
+          "value": "04/30/2012 16:30"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.666.5.625",
+      "definition": "encounter",
+      "status": "performed"
+    },
+    {
+      "id": "DiagnosticStudyResultHospitalMeasuresEcgImpression",
+      "start_date": 1335793200000,
+      "end_date": 1335793200000,
+      "value": [
+        {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.3022",
+          "title": "Attribute Hospital Measures Acute Or Evolving Mi"
+        }
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.666.5.3018",
+      "definition": "diagnostic_study_result",
+      "status": null
+    },
+    {
+      "id": "DiagnosisActiveHospitalMeasuresAmi",
+      "start_date": 1335793800000,
+      "end_date": 1335817800000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+        "ORDINAL": {
+          "type": "CD",
+          "code_list_id": "2.16.840.1.113883.3.666.5.3010",
+          "title": "Hospital Measures - Principal"
+        }
+      },
+      "oid": "2.16.840.1.113883.3.666.5.3011",
+      "definition": "diagnosis",
+      "status": "active"
+    },
+    {
+      "id": "ProcedurePerformedHospitalMeasuresPci",
+      "start_date": 1335794400000,
+      "end_date": 1335796200000,
+      "value": [
+
+      ],
+      "negation": "",
+      "negation_code_list_id": null,
+      "field_values": {
+      },
+      "oid": "2.16.840.1.113883.3.666.5.737",
+      "definition": "procedure",
+      "status": "performed"
+    },
+    {
+      "id": "MeasurePeriod",
+      "start_date": 1325394000000,
+      "end_date": 1356930000000
+    }
+  ],
+  "type": "eh"
+}
